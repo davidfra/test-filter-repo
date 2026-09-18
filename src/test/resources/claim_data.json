@@ -16,6 +16,21 @@
       "land": "Deutschland",
       "telefon": "0123456",
       "mail": "test@example.com"
+    },
+    {
+      "firstname": "Test",
+      "lastname": "Testermann",
+      "vorname": "Test",
+      "nachname": "Testermann",
+      "geburtsdatum": "2000-01-01",
+      "geschlecht": "MÄNNLICH",
+      "strasse": "Teststraße",
+      "hausnummer": "7",
+      "plz": "12345",
+      "ort": "Teststadt",
+      "land": "Deutschland",
+      "telefon": "0123456",
+      "mail": "test@example.com"
     }
   ],
   "vehicleInfo": {
