@@ -1,0 +1,28 @@
+{
+   "applicationCode": "POLICY-CONFIG-V2",
+   "detail": "Versicherungspolicen-Konfiguration",
+   "coverageTypes": [
+     {
+       "coverageType": "Teilkasko",
+       "deductible": 500.00,
+       "premiumRate": 0.035,
+       "description": "Schutz gegen Diebstahl und Naturereignisse"
+     },
+     {
+       "coverageType": "Vollkasko",
+       "deductible": 900.00,
+       "premiumRate": 0.058,
+       "description": "Umfassender Schutz inkl. Eigenschaden"
+     },
+     {
+       "coverageType": "Haftpflicht",
+       "deductible": 0.00,
+       "premiumRate": 0.022,
+       "description": "Gesetzlich vorgeschriebene Grundversicherung"
+     }
+   ],
+   "maxClaimAmount": 150000.00,
+   "processingTimeDays": 14,
+   "validFrom": "2024-01-01",
+   "configVersion": "2.1.0"
+}
