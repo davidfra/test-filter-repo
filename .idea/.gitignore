@@ -9,9 +9,3 @@
 /dataSources/
 /dataSources.local.xml
 
-# ignore results of scan for personal information
-/test_pii_scan_report.csv
-/test_pii_scan_report.db
-
-# generated PII cleanup preparation artifacts (contain derived sensitive values, must never be committed)
-/pii_cleanup/
