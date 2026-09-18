@@ -1,0 +1,50 @@
+{
+  "applicationCode": "CLAIM-PROCESSING-V2",
+  "status": "pending_review",
+  "claimants": [
+    {
+      "firstname": "Sabine",
+      "lastname": "Weber",
+      "vorname": "Sabine",
+      "nachname": "Weber",
+      "geburtsdatum": "1978-11-22",
+      "geschlecht": "WEIBLICH",
+      "strasse": "Hauptmarkt",
+      "hausnummer": "7",
+      "plz": "80331",
+      "ort": "München",
+      "land": "Deutschland",
+      "telefon": "+498998765432",
+      "mail": "s.weber@postfach.de"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Schmidt",
+      "vorname": "Thomas",
+      "nachname": "Schmidt",
+      "geburtsdatum": "1990-06-08",
+      "geschlecht": "MÄNNLICH",
+      "strasse": "Ringstraße",
+      "hausnummer": "15a",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "land": "Deutschland",
+      "telefon": "+494076543210",
+      "mail": "thomas.schmidt@webmail.de"
+    }
+  ],
+  "vehicleInfo": {
+    "fahrgestellnummer": "WVWZZZAUZKE987654",
+    "vehicleBrand": "BMW",
+    "vehicleModel": "320d",
+    "insuranceCompany": "Allianz"
+  },
+  "payoutDetails": {
+    "kontoinhaber": "Sabine Weber",
+    "kontonummer": "9876543210",
+    "iban": "DE81700202700123456789",
+    "swift": "DEUTDEDBHAM"
+  },
+  "claimAmount": 4500.00,
+  "priority": "high"
+}

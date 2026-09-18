@@ -1,0 +1,30 @@
+{
+  "applicationCode": "AUTO-INSURANCE-2024",
+  "vehicleBrand": "Volkswagen",
+  "vehicleModel": "Golf GTI",
+  "detail": "Kundendaten fÃ¼r Versicherungsantrag",
+  "customer": {
+    "firstName": "Friedrich",
+    "lastName": "Müller",
+    "birthDate": "1985-03-15",
+    "gender": "MALE",
+    "street": "Berliner Straße",
+    "houseNumber": "42",
+    "zipCode": "10715",
+    "city": "Berlin",
+    "country": "DE",
+    "email": "friedrich.mueller@email-provider.de",
+    "phone": "+493012345678"
+  },
+  "bankAccount": {
+    "iban": "DE42100110001234567890",
+    "bic": "DEUTDEDBXXX",
+    "bankAccountOwner": "Friedrich Müller",
+    "bankAccountNumber": "1234567890"
+  },
+  "vehicleDetails": {
+    "vin": "WVWZZZAUZKE123456",
+    "registrationYear": 2021,
+    "engineSize": "2.0L"
+  }
+}

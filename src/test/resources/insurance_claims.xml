@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<insuranceClaims>
+    <applicationCode>CLAIM-XML-IMPORT</applicationCode>
+
+    <claimant>
+        <firstName>Klara</firstName>
+        <lastName>Schneider</lastName>
+        <birthDate>1995-02-14</birthDate>
+        <gender>FEMALE</gender>
+        <street>Birkenallee</street>
+        <houseNumber>11</houseNumber>
+        <zipCode>70173</zipCode>
+        <city>Stuttgart</city>
+        <country>Germany</country>
+        <email>k.schneider@online.de</email>
+        <phone>+497112345678</phone>
+    </claimant>
+
+    <secondaryContact>
+        <firstName>Markus</firstName>
+        <lastName>Wagner</lastName>
+        <street>Lindenstraße</street>
+        <houseNumber>8b</houseNumber>
+        <zipCode>80333</zipCode>
+        <city>München</city>
+        <email>m.wagner@email.de</email>
+    </secondaryContact>
+
+    <vehicleDetails>
+        <vin>WVWZZZAUZKE111111</vin>
+        <vehicleBrand>Mercedes</vehicleBrand>
+        <vehicleModel>C200</vehicleModel>
+        <detail>Fahrgestellnummer im System hinterlegt</detail>
+    </vehicleDetails>
+
+    <payoutAccount>
+        <bankAccountOwner>Klara Schneider</bankAccountOwner>
+        <bankAccountNumber>1122334455</bankAccountNumber>
+        <iban>DE99100000000123456789</iban>
+        <bic>MARKADEMXXX</bic>
+    </payoutAccount>
+
+    <claimStatus>under_review</claimStatus>
+    <claimAmount>3200.50</claimAmount>
+</insuranceClaims>
