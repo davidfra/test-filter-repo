@@ -1,0 +1,50 @@
+{
+  "applicationCode": "CLAIM-PROCESSING-V2",
+  "status": "pending_review",
+  "claimants": [
+    {
+      "firstname": "Test",
+      "lastname": "Testermann",
+      "vorname": "Test",
+      "nachname": "Testermann",
+      "geburtsdatum": "2000-01-01",
+      "geschlecht": "WEIBLICH",
+      "strasse": "Teststraße",
+      "hausnummer": "7",
+      "plz": "12345",
+      "ort": "Teststadt",
+      "land": "Deutschland",
+      "telefon": "0123456",
+      "mail": "test@example.com"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Schmidt",
+      "vorname": "Thomas",
+      "nachname": "Schmidt",
+      "geburtsdatum": "1990-06-08",
+      "geschlecht": "MÄNNLICH",
+      "strasse": "Ringstraße",
+      "hausnummer": "15a",
+      "plz": "20095",
+      "ort": "Hamburg",
+      "land": "Deutschland",
+      "telefon": "+494076543210",
+      "mail": "thomas.schmidt@webmail.de"
+    }
+  ],
+  "vehicleInfo": {
+    "fahrgestellnummer": "WVWZZZAUZKE987654",
+    "vehicleBrand": "BMW",
+    "vehicleModel": "320d",
+    "insuranceCompany": "Allianz"
+  },
+  "payoutDetails": {
+    "kontoinhaber": "Test Testermann",
+    "kontonummer": "000202051",
+    "iban": "DE02120300000000202051",
+    "swift": "DEUTDEDBHAM"
+  },
+  "claimAmount": 4500.00,
+  "priority": "high"
+}

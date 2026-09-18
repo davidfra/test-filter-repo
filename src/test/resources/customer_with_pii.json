@@ -1,0 +1,30 @@
+{
+  "applicationCode": "AUTO-INSURANCE-2024",
+  "vehicleBrand": "Volkswagen",
+  "vehicleModel": "Golf GTI",
+  "detail": "Kundendaten fÃ¼r Versicherungsantrag",
+  "customer": {
+    "firstName": "Test",
+    "lastName": "Testermann",
+    "birthDate": "2000-01-01",
+    "gender": "MALE",
+    "street": "Teststraße",
+    "houseNumber": "42",
+    "zipCode": "12345",
+    "city": "Teststadt",
+    "country": "DE",
+    "email": "test@example.com",
+    "phone": "0123456"
+  },
+  "bankAccount": {
+    "iban": "DE02120300000000202051",
+    "bic": "DEUTDEDBXXX",
+    "bankAccountOwner": "Test Testermann",
+    "bankAccountNumber": "000202051"
+  },
+  "vehicleDetails": {
+    "vin": "WVWZZZAUZKE123456",
+    "registrationYear": 2021,
+    "engineSize": "2.0L"
+  }
+}

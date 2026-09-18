@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customerData>
+    <applicationCode>POLICY-MGMT-2024</applicationCode>
+    <detail>Kundenstamm für Policenverwaltung</detail>
+
+    <customer>
+        <givenName>Test</givenName>
+        <familyName>Fischer</familyName>
+        <dateOfBirth>2000-01-01</dateOfBirth>
+        <sex>M</sex>
+        <addressLine1>Teststraße</addressLine1>
+        <houseNumber>23</houseNumber>
+        <postalCode>12345</postalCode>
+        <city>Teststadt</city>
+        <country>DE</country>
+        <emailAddress>test@example.com</emailAddress>
+        <mobile>0123456</mobile>
+    </customer>
+
+    <bankDetails>
+        <iban>DE02120300000000202051</iban>
+        <bic>SOLADES1XXX</bic>
+        <accountOwner>Test Testermann</accountOwner>
+        <accountNumber>000202051</accountNumber>
+    </bankDetails>
+
+    <vehicle>
+        <vin>WVWZZZAUZKE555555</vin>
+        <vehicleBrand>Audi</vehicleBrand>
+        <vehicleModel>A4 Avant</vehicleModel>
+        <registrationYear>2019</registrationYear>
+    </vehicle>
+
+    <policyInfo>
+        <companyName>Allianz Versicherungs AG</companyName>
+        <policyNumber>AV-2024-789012</policyNumber>
+        <coverageType>Vollkasko</coverageType>
+    </policyInfo>
+</customerData>

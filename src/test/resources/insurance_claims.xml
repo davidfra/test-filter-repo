@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<insuranceClaims>
+    <applicationCode>CLAIM-XML-IMPORT</applicationCode>
+
+    <claimant>
+        <firstName>Test</firstName>
+        <lastName>Testermann</lastName>
+        <birthDate>2000-01-01</birthDate>
+        <gender>FEMALE</gender>
+        <street>Teststraße</street>
+        <houseNumber>11</houseNumber>
+        <zipCode>12345</zipCode>
+        <city>Teststadt</city>
+        <country>Germany</country>
+        <email>test@example.com</email>
+        <phone>0123456</phone>
+    </claimant>
+
+    <secondaryContact>
+        <firstName>Test</firstName>
+        <lastName>Testermann</lastName>
+        <street>Teststraße</street>
+        <houseNumber>8b</houseNumber>
+        <zipCode>12345</zipCode>
+        <city>Teststadt</city>
+        <email>test@example.com</email>
+    </secondaryContact>
+
+    <vehicleDetails>
+        <vin>WVWZZZAUZKE111111</vin>
+        <vehicleBrand>Mercedes</vehicleBrand>
+        <vehicleModel>C200</vehicleModel>
+        <detail>Fahrgestellnummer im System hinterlegt</detail>
+    </vehicleDetails>
+
+    <payoutAccount>
+        <bankAccountOwner>Test Testermann</bankAccountOwner>
+        <bankAccountNumber>000202051</bankAccountNumber>
+        <iban>DE02120300000000202051</iban>
+        <bic>MARKADEMXXX</bic>
+    </payoutAccount>
+
+    <claimStatus>under_review</claimStatus>
+    <claimAmount>3200.50</claimAmount>
+</insuranceClaims>
