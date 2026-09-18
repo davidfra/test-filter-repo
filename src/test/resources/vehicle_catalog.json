@@ -1,0 +1,44 @@
+{
+   "applicationCode": "VEHICLE-CATALOG-2024",
+   "detail": "Fahrzeugkatalog für interne Referenz",
+   "vehicles": [
+     {
+       "vehicleBrand": "Volkswagen",
+       "vehicleModel": "Golf GTI",
+       "engineSize": "2.0L",
+       "fuelType": "Benzin",
+       "transmission": "Automatik",
+       "horsepower": 245,
+       "registrationYear": 2021,
+       "colorCode": "Tornado-Rot",
+       "price": 38900.00,
+       "availabilityStatus": "in_stock"
+     },
+     {
+       "vehicleBrand": "BMW",
+       "vehicleModel": "320d",
+       "engineSize": "2.0L",
+       "fuelType": "Diesel",
+       "transmission": "Manuell",
+       "horsepower": 190,
+       "registrationYear": 2022,
+       "colorCode": "Alpine-Weiß",
+       "price": 45200.00,
+       "availabilityStatus": "pre_order"
+     },
+     {
+       "vehicleBrand": "Audi",
+       "vehicleModel": "A4 Avant",
+       "engineSize": "2.0L",
+       "fuelType": "Benzin",
+       "transmission": "Automatik",
+       "horsepower": 190,
+       "registrationYear": 2023,
+       "colorCode": "Mythos-Schwarz",
+       "price": 52100.00,
+       "availabilityStatus": "in_stock"
+     }
+   ],
+   "catalogVersion": "3.2.1",
+   "lastUpdated": "2024-06-15"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policyConfiguration>
+     <applicationCode>POLICY-RULES-V3</applicationCode>
+     <detail>Konfiguration der Versicherungsregeln und Tarife</detail>
+
+     <coverageRules>
+         <rule>
+             <ruleId>RULE-001</ruleId>
+             <coverageType>Teilkasko</coverageType>
+             <minDeductible>300.00</minDeductible>
+             <maxDeductible>1500.00</maxDeductible>
+             <premiumRate>0.042</premiumRate>
+         </rule>
+         <rule>
+             <ruleId>RULE-002</ruleId>
+             <coverageType>Vollkasko</coverageType>
+             <minDeductible>500.00</minDeductible>
+             <maxDeductible>2500.00</maxDeductible>
+             <premiumRate>0.065</premiumRate>
+         </rule>
+         <rule>
+             <ruleId>RULE-003</ruleId>
+             <coverageType>Haftpflicht</coverageType>
+             <minDeductible>0.00</minDeductible>
+             <maxDeductible>0.00</maxDeductible>
+             <premiumRate>0.018</premiumRate>
+         </rule>
+     </coverageRules>
+
+     <processingConfig>
+         <maxClaimAmount>200000.00</maxClaimAmount>
+         <processingTimeDays>14</processingTimeDays>
+         <escalationThresholdDays>30</escalationThresholdDays>
+         <autoCloseAfterDays>90</autoCloseAfterDays>
+     </processingConfig>
+
+     <systemInfo>
+         <configVersion>3.0.0</configVersion>
+         <validFrom>2024-01-01</validFrom>
+         <environment>production</environment>
+     </systemInfo>
+</policyConfiguration>
