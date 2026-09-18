@@ -16,21 +16,6 @@
       "land": "Deutschland",
       "telefon": "0123456",
       "mail": "test@example.com"
-    },
-    {
-      "firstname": "Thomas",
-      "lastname": "Schmidt",
-      "vorname": "Thomas",
-      "nachname": "Schmidt",
-      "geburtsdatum": "1990-06-08",
-      "geschlecht": "MÄNNLICH",
-      "strasse": "Ringstraße",
-      "hausnummer": "15a",
-      "plz": "20095",
-      "ort": "Hamburg",
-      "land": "Deutschland",
-      "telefon": "+494076543210",
-      "mail": "thomas.schmidt@webmail.de"
     }
   ],
   "vehicleInfo": {
