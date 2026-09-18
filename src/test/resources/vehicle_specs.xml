@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicleSpecifications>
+     <applicationCode>VEHICLE-SPEC-IMPORT</applicationCode>
+     <detail>Fahrzeugspezifikationen für die Werkstattabrechnung</detail>
+
+     <vehicleSpec>
+         <vehicleBrand>Mercedes</vehicleBrand>
+         <vehicleModel>C200</vehicleModel>
+         <engineSize>1.5L</engineSize>
+         <fuelType>Benzin</fuelType>
+         <transmission>Automatik</transmission>
+         <horsepower>204</horsepower>
+         <registrationYear>2023</registrationYear>
+         <colorCode>Night-Black</colorCode>
+         <price>48500.00</price>
+     </vehicleSpec>
+
+     <vehicleSpec>
+         <vehicleBrand>Porsche</vehicleBrand>
+         <vehicleModel>911 Carrera</vehicleModel>
+         <engineSize>3.0L</engineSize>
+         <fuelType>Benzin</fuelType>
+         <transmission>PDK</transmission>
+         <horsepower>385</horsepower>
+         <registrationYear>2024</registrationYear>
+         <colorCode>Guards-Red</colorCode>
+         <price>129000.00</price>
+     </vehicleSpec>
+
+     <catalogInfo>
+         <catalogVersion>5.0.2</catalogVersion>
+         <lastUpdated>2024-08-01</lastUpdated>
+         <totalEntries>247</totalEntries>
+     </catalogInfo>
+</vehicleSpecifications>

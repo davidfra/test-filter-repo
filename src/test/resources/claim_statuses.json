@@ -1,0 +1,38 @@
+{
+   "applicationCode": "CLAIM-STATUS-Lookup",
+   "detail": "Statusdefinitionen für Schadensbearbeitung",
+   "statuses": [
+     {
+       "statusCode": "NEW",
+       "statusLabel": "Neuer Schaden gemeldet",
+       "processingPriority": 1,
+       "slaHours": 24
+     },
+     {
+       "statusCode": "UNDER_REVIEW",
+       "statusLabel": "Wird geprüft",
+       "processingPriority": 2,
+       "slaHours": 72
+     },
+     {
+       "statusCode": "APPROVED",
+       "statusLabel": "Genehmigt",
+       "processingPriority": 3,
+       "slaHours": 48
+     },
+     {
+       "statusCode": "REJECTED",
+       "statusLabel": "Abgelehnt",
+       "processingPriority": 0,
+       "slaHours": 24
+     },
+     {
+       "statusCode": "PAID",
+       "statusLabel": "Ausgezahlt",
+       "processingPriority": 0,
+       "slaHours": 0
+     }
+   ],
+   "escalationThresholdDays": 30,
+   "autoCloseAfterDays": 90
+}
